@@ -3,6 +3,7 @@ import java.util.Scanner;
 
 class Switch {
   public static void main(String args[]){
+    @SuppressWarnings("resource")
     Scanner sc = new Scanner(System.in);
     System.out.println("Please, enter month : ");
     int month = sc.nextInt();

@@ -4,6 +4,7 @@ class SalesCommission3 {
    public static void main(String[] args) {
 
         double commissionRate = 0;
+        @SuppressWarnings("resource")
         Scanner sc = new Scanner(System.in);
 
         System.out.println("Enter sales total(in $) of a sale representative :");

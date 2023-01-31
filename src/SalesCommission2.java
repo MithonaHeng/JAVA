@@ -4,6 +4,7 @@ class SalesCommission2 {
    public static void main(String[] args) {
 
         double commissionRate = 0;
+        @SuppressWarnings("resource")
         Scanner sc = new Scanner(System.in);
 
         System.out.println("Enter a value of sales class (1, 2 or 3):");
